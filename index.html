@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wather Api</title>
+        <link rel="stylesheet" href="./weather_api.css">
+
+    </head>
+    <body class="dark">
+        <div class="mode-toggle" onclick="toggleMode()">🌙</div>
+
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Search City" >
+            <button id="btn" onclick="weather()">Search</button>
+        </div>
+
+        <div id="main-card"></div>
+
+        <div id="result"></div>
+    </body>
+
+
+    <script src="./weather_api.js"></script>
+</html>
